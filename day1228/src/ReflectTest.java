@@ -16,14 +16,18 @@ public class ReflectTest {
         // 获取age属性（根据属性的名称来获取）
         Field field = studenClass.getDeclaredField("age");
         field.setAccessible(true);
+        Field nameField = studenClass.getDeclaredField("name");
+        nameField.setAccessible(true);
+        
 
         // 给obj（Student）对象的age属性赋值
         field.set(obj, 33);
+        nameField.set(obj, "jack ");
 
         // 读取属性的值
         System.out.println(field.get(obj));
         
-        Method method = studenClass.getMethod("test");
-        method.invoke(obj);
+        Method method = studenClass.getMethod("test", String.class);
+        method.invoke(obj, "hello");
     }
 }
