@@ -1,18 +1,11 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+StringBuilder的方法  
+* substring返回一个新的String字串, 需要接收对象
+* append返回该对象的引用, 不需要接收对象  
+  
+不同包下继承 变量访问权限  
+* 父类引用 子类对象 只能访问 public变量
+* 子类引用 子类对象 可以访问 public和protected变量  
+  
+private访问修饰符  
+* 不能修饰方法里的局部变量 因为没有意义 也不允许这样做  
+  

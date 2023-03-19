@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="2023day0101/src"/>
+	<classpathentry kind="src" path="day1123/src"/>
+	<classpathentry kind="src" path="day1127/src"/>
+	<classpathentry kind="src" path="day1130/src"/>
+	<classpathentry kind="src" path="day1207/src"/>
+	<classpathentry kind="src" path="day1211/src"/>
+	<classpathentry kind="src" path="day1214/src"/>
+	<classpathentry kind="src" path="day1218/src"/>
+	<classpathentry kind="src" path="day1221/src"/>
+	<classpathentry kind="src" path="day1225/src"/>
+	<classpathentry kind="src" path="day1228/src"/>
+	<classpathentry kind="src" path="java_silver/src"/>
+	<classpathentry kind="output" path="day1228/bin"/>
+</classpath>
